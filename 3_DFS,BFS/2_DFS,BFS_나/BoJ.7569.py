@@ -1,3 +1,4 @@
+# DFS,BFS_3_이태경.py
 import sys
 from collections import deque
 input = sys.stdin.readline
@@ -30,7 +31,7 @@ def bfs():
                     visited[nz][nx][ny] = True
                     q.append( [nz,nx,ny] )
 
-# 1번 케이스 체킹
+# 1번 케이스 체킹 함수
 def checking():
     for z in range(h):
         for x in range(n):
@@ -58,6 +59,7 @@ if c == (m*n*h):
 elif t == (m*n*h):
     print(-1)
 else:
+    
     bfs()
     if checking() == 9999:
         print(-1)
