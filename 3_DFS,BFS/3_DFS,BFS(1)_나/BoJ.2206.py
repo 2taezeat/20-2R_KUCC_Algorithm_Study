@@ -39,6 +39,7 @@ while q:
 
     # 벽을 부순적이 있는 경우 중에, 4방향이 모두 벽인 경우인 case는 q에 append가 이루어지지 않음.
 
+
 r1, r2 = distance[n-1][m-1][0], distance[n-1][m-1][1]
 if r1 == 0 and r2 == 0:
     print(-1)
