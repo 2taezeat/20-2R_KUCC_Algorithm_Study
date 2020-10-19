@@ -9,6 +9,7 @@ result = 0
 for j in range(h):
     for i in range(n):
         space[j].append(list(map(int,input().split())))
+        
 # 3차원 배열임으로, dz z축도 만들어야한다. 왼, 오, 아, 위, 앞, 뒤 6가지
 dx = [1, -1, 0, 0, 0, 0]
 dy = [0, 0, -1, 1, 0, 0]
