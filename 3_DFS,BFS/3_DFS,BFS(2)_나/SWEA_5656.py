@@ -13,7 +13,7 @@ for test_case in range(1, T + 1):
     space, per, answer  = [], [], []
     for i in range(h):
         space.append(list(map(int,input().split())))
-    l1 = [i for i in range(w)] # per을 만들기 위한 리스트 l1
+    l1 = [i for i in range(w)] # product을 만들기 위한 리스트 l1
 
     for i in product(l1, repeat=n): # 모든 경우를 구하는 product (0,0,0) ~ (9,9,9)
         per.append(i)
